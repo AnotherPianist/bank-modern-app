@@ -13,7 +13,7 @@ import styles from "./style";
 
 export default function App() {
   return (
-    <div className="bg-primary w-full overflo-hidden">
+    <div className="w-full overflow-hidden bg-primary">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
